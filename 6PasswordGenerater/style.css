@@ -1,0 +1,27 @@
+div{
+    background: #A64942;
+    width: 200px;
+    height: 120px;
+    margin: 90px;
+    border-radius: 17px
+
+}
+
+.box{
+    width: 200px;
+    height: 97px;
+    background: #FE5F55;
+    margin: -210px;
+    margin-left: 90px;
+    margin-bottom: 700px;
+    border-radius: 17px
+}
+.box2{
+    width: 140px;
+    height: 40px;
+    background: black;
+    margin: -766px;
+    margin-left: 120px;
+    /* margin-bottom:px; */
+    border-radius: 170px
+}

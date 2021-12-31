@@ -1,0 +1,16 @@
+div {
+    width: 184px;
+    height: 100px;
+    background: #dd6b4d;
+    border-radius:12px;
+    margin: 200px;
+    background:#191919;
+}
+
+.key{
+    width: 20px;
+    height: 100px;
+    border-radius:12px;
+    margin: 0px;
+    background: #667f;
+}

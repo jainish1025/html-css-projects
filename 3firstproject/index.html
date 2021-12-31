@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="Containered">
+        <form action="" method="get">
+
+            <!-- <header>
+                <h1 >Contact Form</h1>
+                <h6 >Plese fill all the text in the fields.</h6>
+            </header> -->
+
+            <div class="Heading">
+                <h1 >Contact Form</h1>
+                <h6 >Plese fill all the text in the fields.</h6>
+            </div>
+
+            <hr>
+            <p>Your Name:
+                <input placeholder="Your Full Name" type="text" name="your name" required>
+            </p>
+
+            <p>Your Email:<input placeholder="Valid Emial Address" type="email" name="email" id="" required></p>
+
+            <p class="meg">Message:
+                <textarea placeholder="Your message to us" name="message" id="message" cols="30" rows="10"></textarea>
+
+            </p>
+
+            <p>Subject:
+                <input placeholder="job inquiry" type="text" name="sub" id="sub">
+            </p>
+
+
+                <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="sun- sun-logi">
+            <i class="fas fa-sun"></i>
+        </div>
+        <div class="moon moon-logo">
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
+<script>
+    document.querySelector(".container").addEventListener("click", () => {
+        document.querySelector(".sun-logo").classList.toggle("animate-sun");
+        document.querySelector(".moon-logo").classList.toggle("animate-moon");
+        document.querySelector("body").classList.toggle("dark");
+    })
+</script>
+
+</body>
+
+</html>
